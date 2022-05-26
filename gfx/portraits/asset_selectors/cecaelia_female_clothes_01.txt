@@ -1,0 +1,1388 @@
+
+
+cecaelia_female_clothes_01 = {
+	default = "gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+	}
+	
+	#############
+	## SPECIES ##
+	###########################################################################################################################################################################################
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+			
+			# EVERYONE #
+			random = {
+				list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+				}
+			}				
+	}
+	
+	#########
+	## POP ##
+	#########
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+		
+		#####################################################################
+		# clothing LIST: Used to line up clothing in the ruler design window! #
+		###########################################################################################################################################################################################
+		random = {
+			trigger = { always = no }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+			}
+		}
+		###########################################################################################################################################################################################
+		# END clothing LIST #
+		####################
+		
+		## PRESAPIENT ##
+		random = {
+			trigger = { is_pop_category = pre_sapients }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+			}
+		}
+		
+		###########
+		# SLAVERY #
+		###########################################################################################################################################################################################
+		
+		## DOMESETIC ##
+		random = {
+			trigger = { has_job = slave_toiler }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+			}
+		}
+		
+		## FOOD ##
+		random = {
+			trigger = {
+							OR = {
+								has_job = organic_battery
+								has_job = livestock
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+			}
+		}
+
+		## GENERIC SLAVE ##
+		random = {
+			trigger = {
+							OR = {
+								is_pop_category = slave
+								is_enslaved = yes
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+			}
+		}
+		
+		#############
+		## WORKERS ##
+		###########################################################################################################################################################################################
+		
+		## MAIDS ##
+		random = {
+			trigger = { has_job = servant }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+			}
+		}
+		
+		## COMMON WORKERS ##
+		random = {
+			trigger = { is_pop_category = worker }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+			}
+		}
+		
+		## DANCER/ENTERTAINERS ##
+		random = {
+			trigger = {
+							OR = {
+								has_job = fe_hedonist
+								has_job = entertainer
+								has_job = culture_worker
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+			}
+		}
+		## Priest ##
+		random = {
+			trigger = {
+							OR = {
+								has_job = primitive_priest
+								has_job = primitive_priest_2
+								has_job = priest
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+			}
+		}
+		## POLICE/ENFORCERES ##
+		random = {
+			trigger = {
+							OR = {
+								has_job = enforcer
+								has_job = soldier
+								has_job = slave_overseer
+								has_job = fe_protector
+								has_job = fe_xeno_keeper
+								has_job = primitive_warrior
+								has_job = primitive_warrior_2
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+			}
+		}
+		
+		## SPECIALISTS ##
+		random = {
+			trigger = {
+							OR = {
+								has_job = fe_xeno_ward
+								is_pop_category = specialist
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+			}
+		}
+		
+		## NOBILITY ##
+		random = {
+			trigger = {
+							OR = {
+								is_pop_category = ruler
+								is_pop_category = bio_trophy
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+			}
+		}
+		
+		## CRIMINALS ##
+		random = {
+			trigger = { is_pop_category = criminal }
+			list = {
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+			}
+		}
+		
+		## PURGE ##
+		random = {
+			trigger = { is_pop_category = purge }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+			}
+		}
+		
+		## PRECURSOR ##
+		random = {
+			trigger = { is_pop_category = precursor }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+			}
+		}
+		
+	}
+	
+	#############
+	## LEADERS ##
+	###########################################################################################################################################################################################
+	leader = { #scientists, generals, admirals, governor
+		
+		# Hive Minds are all BORG
+		random = {
+			trigger = { owner =  { has_authority = auth_hive_mind } }
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+			}
+		}
+		
+
+		
+		##  ADMIRALS ##
+		random = {
+			trigger = {
+							and = {
+									leader_class = admiral
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+			}
+		}
+		
+		##  GOVERNORS ##
+		random = {
+			trigger = {
+							and = {
+									leader_class = governor
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"		
+			}
+		}
+		
+		## GENERALS ##
+		random = {
+			trigger = {
+							and = {
+									leader_class = general
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+			}
+		}
+		
+		## SCIENTISTS ##
+		random = {
+			trigger = {
+							and = {
+									leader_class = scientist
+							}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"			
+			}
+		}
+	}
+	
+	############
+	## RULERS ##
+	###########################################################################################################################################################################################
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+		
+		# Hive Minds are all BORG
+		random = {
+			trigger = { owner =  { has_authority = auth_hive_mind } }
+			list = {
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+			"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+			}
+		}
+	
+		 # Democratic 
+		random = {
+			trigger = { 
+						or = {
+								owner = { has_authority = auth_democratic }
+								owner = { has_government = gov_military_order  }
+								owner = { has_government = gov_curator_enclave }
+								owner = { has_government = gov_trader_enclave }
+								owner = { has_government = gov_artist_enclave }
+						}
+						
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+
+			}
+		}
+		
+		# Authoritarian
+		random = {
+			trigger = { 
+						or = {
+							owner = { has_authority = auth_oligarchic }
+							owner = { has_authority = auth_imperial }
+							owner = { has_authority = auth_dictatorial }
+						}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg04-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg05-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg07-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"
+
+			}
+		}
+		  
+		# Primitives
+		random = {
+			trigger = { 
+						or = {
+							owner = { has_government = gov_tribal_society }
+						}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg10-12.dds"
+			}
+		}
+
+		# More advanced primitives
+		random = {
+			trigger = { 
+						or = {
+							owner = { has_government = gov_feudal_realms }
+							owner = { has_government = gov_fragmented_nation_states }
+						}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg28-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg29-12.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg30-12.dds"	
+			}
+		}
+
+		# Fallen Empire
+		random = {
+			trigger = { 
+						or = {
+								owner = { has_government = gov_awakened_ascendancy }
+								owner = { has_government = gov_stagnant_ascendancy }
+						}
+			}
+			list = {
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-01.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-02.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-03.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-04.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-05.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-06.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-07.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-08.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-09.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-10.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-11.dds"
+				"gfx/models/portraits/Etiluos Clothes Pile/f2-vg27-12.dds"
+			}
+		}		
+	}
+}
+
+cecaelia_female_hair_1 = { 
+	default = "gfx/models/portraits/Etiluos Hair Pile/06ah01-06ab01-06ay06.dds"
+}
+

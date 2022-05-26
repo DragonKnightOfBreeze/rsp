@@ -1,0 +1,169 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+#mermaid female
+	mermaid_female_01 = {
+		entity = "portrait_mermaid_female_01_entity" clothes_selector = "mermaid_female_clothes_01" hair_selector = "mermaid_female_hair_01" greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Etiluos Body Pile/AQ00-i03.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ00-i04.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ00-i06.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ00-i11.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ00-i17.dds"
+		}
+	}
+	mermaid_female_02 = {
+		entity = "portrait_mermaid_female_01_entity" clothes_selector = "mermaid_female_clothes_01" hair_selector = "mermaid_female_hair_01" greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Etiluos Body Pile/AQ01-i03.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ01-i04.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ01-i06.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ01-i11.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ01-i17.dds"
+		}
+	}
+		mermaid_female_03 = {
+		entity = "portrait_mermaid_female_01_entity" clothes_selector = "mermaid_female_clothes_01" hair_selector = "mermaid_female_hair_01" greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Etiluos Body Pile/AQ02-i03.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ02-i04.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ02-i06.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ02-i11.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ02-i17.dds"
+		}
+	}
+	mermaid_female_04 = {
+		entity = "portrait_mermaid_female_01_entity" clothes_selector = "mermaid_female_clothes_01" hair_selector = "mermaid_female_hair_01" greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Etiluos Body Pile/AQ03-i03.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ03-i04.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ03-i06.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ03-i11.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ03-i17.dds"
+		}
+	}
+	mermaid_female_05 = {
+		entity = "portrait_mermaid_female_01_entity" clothes_selector = "mermaid_female_clothes_01" hair_selector = "mermaid_female_hair_01" greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Etiluos Body Pile/AQ04-i03.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ04-i04.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ04-i06.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ04-i11.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ04-i17.dds"
+		}
+	}
+	mermaid_female_06 = {
+		entity = "portrait_mermaid_female_01_entity" clothes_selector = "mermaid_female_clothes_01" hair_selector = "mermaid_female_hair_01" greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Etiluos Body Pile/AQ05-i03.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ05-i04.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ05-i06.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ05-i11.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ05-i17.dds"
+		}
+	}
+	mermaid_female_07 = {
+		entity = "portrait_mermaid_female_01_entity" clothes_selector = "mermaid_female_clothes_01" hair_selector = "mermaid_female_hair_01" greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Etiluos Body Pile/AQ06-i03.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ06-i04.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ06-i06.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ06-i11.dds"
+			"gfx/models/portraits/Etiluos Body Pile/AQ06-i17.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	mermaid = {
+		default = mermaid_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					mermaid_female_01
+					mermaid_female_02
+					mermaid_female_03
+					mermaid_female_04
+					mermaid_female_05
+					mermaid_female_06
+					mermaid_female_07
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					mermaid_female_01
+					mermaid_female_02
+					mermaid_female_03
+					mermaid_female_04
+					mermaid_female_05
+					mermaid_female_06
+					mermaid_female_07
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					mermaid_female_01
+					mermaid_female_02
+					mermaid_female_03
+					mermaid_female_04
+					mermaid_female_05
+					mermaid_female_06
+					mermaid_female_07
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					mermaid_female_01
+					mermaid_female_02
+					mermaid_female_03
+					mermaid_female_04
+					mermaid_female_05
+					mermaid_female_06
+					mermaid_female_07
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					mermaid_female_01
+					mermaid_female_02
+					mermaid_female_03
+					mermaid_female_04
+					mermaid_female_05
+					mermaid_female_06
+					mermaid_female_07
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+	NGameplay = {
+		EMPIRE_SIZE_BASE						= 100 	# No modifiers at this empire size or below
+		EMPIRE_SIZE_FROM_DISTRICTS				= 0.5	# Per district
+		EMPIRE_SIZE_FROM_SYSTEMS				= 1		# Per system
+		EMPIRE_SIZE_FROM_COLONIES				= 10	# Per planet
+		EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 2		# Per branch office
+		EMPIRE_SIZE_FROM_POPS					= 1		# Per pop
+		EMPIRE_SIZE_TECH_COST_PENALTY			= 0.001	# Per empire size above base
+		EMPIRE_SIZE_TRADITION_COST_PENALTY		= 0.002	# Per empire size above base
+	
+	
+		CUSTOM_EMPIRE_SPAWN_CHANCE 			= 750	# Chance that an empire will be created from an existing template instead of randomly generated (10 = 1% chance)
+		FALLEN_CUSTOM_EMPIRE_SPAWN_CHANCE	= 50	# Chance that a fallen empire will be created from an existing template instead of randomly generated (10 = 1% chance)
+	}
+	
+	NAI = {
+		MIN_WANTED_SCIENTISTS = 6   # Below this AI prioritizes energy spending to get more scientists
+	}

@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ format.primitive_hive.1:0 "[This.GetSpeciesName]<junior_hive>"
+ format.primitive.1:0 "[This.GetSpeciesName]<primitive_names>"
+ format.primitive_machine.1:0 "[This.GetSpeciesName]<protointelligence>"

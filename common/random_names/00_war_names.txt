@@ -3,27 +3,27 @@
 war_name_parts_list = {
 	key = "default_war_names"
 	parts = {
-		War = 1
+		WN_War = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "federation_war_names"
 	parts = {
-		Great_War = 1
-		Galactic_War = 1
-		War_of_the_Alliances = 1
-		Federation_War = 1
+		WN_Great_War = 1
+		WN_Galactic_War = 1
+		WN_War_of_the_Alliances = 1
+		WN_Federation_War = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "conquest_war_names"
 	parts = {
-		War_of_Conquest = 1
-		War_of_Aggression = 1
-		Territorial_Invasion = 1
-		Annexation_Attempt = 1
+		WN_War_of_Conquest = 1
+		WN_War_of_Aggression = 1
+		WN_Territorial_Invasion = 1
+		WN_Annexation_Attempt = 1
 	}
 }
 
@@ -37,163 +37,163 @@ war_name_parts_list = {
 war_name_parts_list = {
 	key = "subjugation_war_names"
 	parts = {
-		War_of_Subjugation = 1
-		Servitude_Campaign = 1
-		War_of_Obedience = 1
-		War_of_Overlordship = 1
+		WN_War_of_Subjugation = 1
+		WN_Servitude_Campaign = 1
+		WN_War_of_Obedience = 1
+		WN_War_of_Overlordship = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "corp_subjugation_war_names"
 	parts = {
-		Subsidiary_Acquisition = 1
+		WN_Subsidiary_Acquisition = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "galatron_war_names"
 	parts = {
-		War_for_the_Galatron = 1
+		WN_War_for_the_Galatron = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "expel_corp_war_names"
 	parts = {
-		Embargo_War = 1
-		War_of_Expropriation = 1
-		Expulsion_War = 1
+		WN_Embargo_War = 1
+		WN_War_of_Expropriation = 1
+		WN_Expulsion_War = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "tribute_war_names"
 	parts = {
-		Tributary_War = 1
+		WN_Tributary_War = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "corp_tribute_war_names"
 	parts = {
-		Enforced_Sponsorship = 1
+		WN_Enforced_Sponsorship = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "force_ideology_war_names"
 	parts = {
-		War_of_Ideologies = 1
-		War_of_Philosophies = 1
-		War_of_Beliefs = 1
+		WN_War_of_Ideologies = 1
+		WN_War_of_Philosophies = 1
+		WN_War_of_Beliefs = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "humiliation_war_names"
 	parts = {
-		War_of_Humiliation = 1
-		War_of_Rivalry = 1
-		Confrontation = 1
-		Border_War = 1
+		WN_War_of_Humiliation = 1
+		WN_War_of_Rivalry = 1
+		WN_Confrontation = 1
+		WN_Border_War = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "fe_humiliation_war_names"
 	parts = {
-		Punitive_Expedition = 1
+		WN_Punitive_Expedition = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "fe_stop_atrocities_war_names"
 	parts = {
-		Moral_Intervention = 1
+		WN_Moral_Intervention = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "fe_stop_ai_war_names"
 	parts = {
-		Anti_AI_Police_Action = 1
+		WN_Anti_AI_Police_Action = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "fe_cleanse_holy_worlds_war_names"
 	parts = {
-		Holy_Purge = 1
+		WN_Holy_Purge = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "fe_cleanse_border_worlds_war_names"
 	parts = {
-		Buffer_Zone_Creation = 1
+		WN_Buffer_Zone_Creation = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "machine_uprising_war_names"
 	parts = {
-		Machine_Uprising = 1
+		WN_Machine_Uprising = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "war_in_heaven_war_names"
 	parts = {
-		The_War_in_Heaven = 1
+		WN_The_War_in_Heaven = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "protection_war_names"
 	parts = {
-		Preventive_War = 1
-		Self_Protection_War = 1
-		Preemptive_Action = 1
-		Intervention_War = 1
+		WN_Preventive_War = 1
+		WN_Self_Protection_War = 1
+		WN_Preemptive_Action = 1
+		WN_Intervention_War = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "cleansing_pur_war_names"
 	parts = {
-		Xeno_Purification_War = 1
-		War_of_Cleansing = 1
-		Xeno_Filth_Removal = 1
+		WN_Xeno_Purification_War = 1
+		WN_War_of_Cleansing = 1
+		WN_Xeno_Filth_Removal = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "cleansing_ext_war_names"
 	parts = {
-		Organic_Euthanization_War = 1
-		Extermination_Campaign = 1
-		Organic_Disinfection_Program = 1
+		WN_Organic_Euthanization_War = 1
+		WN_Extermination_Campaign = 1
+		WN_Organic_Disinfection_Program = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "absorption_war_names"
 	parts = {
-		Absorption_War = 1
-		Biomass_Accumulation = 1
-		Great_Gorging = 1
+		WN_Absorption_War = 1
+		WN_Biomass_Accumulation = 1
+		WN_Great_Gorging = 1
 	}
 }
 
 war_name_parts_list = {
 	key = "independence_war_names"
 	parts = {
-		Independence_War = 1
-		War_of_Independence = 1
-		War_of_Liberation = 1
-		Freedom_Struggle = 1
-		Secessionist_War = 1
+		WN_Independence_War = 1
+		WN_War_of_Independence = 1
+		WN_War_of_Liberation = 1
+		WN_Freedom_Struggle = 1
+		WN_Secessionist_War = 1
 	}
 }
 

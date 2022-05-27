@@ -3,62 +3,62 @@
 federation_name_parts_list = {
 	key = "default_federation_names_1_1"
 	parts = {
-		Pan-Galactic = 1
-		Galactic = 1
-		Interstellar = 1
-		Star = 1
-		Stellar = 1
-		Cosmic = 1
-		MutualAssistance = 1
+		FN_Pan-Galactic = 1
+		FN_Galactic = 1
+		FN_Interstellar = 1
+		FN_Star = 1
+		FN_Stellar = 1
+		FN_Cosmic = 1
+		FN_MutualAssistance = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "default_federation_names_1_2"
 	parts = {
-		Alliance = 1
-		League = 1
-		Federation = 1
-		Pact = 1
-		Coalition = 1
-		Compact = 1
-		Concord = 1
-		Entente = 1
-		Partnership = 1
-		TreatyOrganization = 1
-		Accord = 1
-		Assembly = 1
+		FN_Alliance = 1
+		FN_League = 1
+		FN_Federation = 1
+		FN_Pact = 1
+		FN_Coalition = 1
+		FN_Compact = 1
+		FN_Concord = 1
+		FN_Entente = 1
+		FN_Partnership = 1
+		FN_TreatyOrganization = 1
+		FN_Accord = 1
+		FN_Assembly = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "default_federation_names_2_1"
 	parts = {
-		Coalitionof = 1
-		Leagueof = 1
-		Allianceof = 1
-		Unionof = 1
-		Allied = 1
-		United = 1
-		Federal = 1
-		Federated = 1
-		Confederated = 1
+		FN_Coalitionof = 1
+		FN_Leagueof = 1
+		FN_Allianceof = 1
+		FN_Unionof = 1
+		FN_Allied = 1
+		FN_United = 1
+		FN_Federal = 1
+		FN_Federated = 1
+		FN_Confederated = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "default_federation_names_2_2"
 	parts = {
-		StarNations = 1
-		InterlinkedSystems = 1
-		IndependentSystems = 1
-		SovereignNations = 1
-		AutonomousPowers = 1
-		GalacticPowers = 1
-		SovereignStars = 1
-		CivilizedWorlds = 1
-		AssociatedNations = 1
-		SapientNations = 1
+		FN_StarNations = 1
+		FN_InterlinkedSystems = 1
+		FN_IndependentSystems = 1
+		FN_SovereignNations = 1
+		FN_AutonomousPowers = 1
+		FN_GalacticPowers = 1
+		FN_SovereignStars = 1
+		FN_CivilizedWorlds = 1
+		FN_AssociatedNations = 1
+		FN_SapientNations = 1
 	}
 }
 
@@ -91,54 +91,54 @@ federation_name_format = {
 federation_name_parts_list = {
 	key = "trade_federation_names_1_1"
 	parts = {
-		Pan-Galactic = 1
-		Galactic = 1
-		Interstellar = 1
-		Star = 1
-		Stellar = 1
-		Cosmic = 1
-		United = 1
-		Free = 1
-		Consolidated = 1
-		Harmonious = 1
-		Golden = 1
-		Favorable = 1
+		FN_Pan-Galactic = 1
+		FN_Galactic = 1
+		FN_Interstellar = 1
+		FN_Star = 1
+		FN_Stellar = 1
+		FN_Cosmic = 1
+		FN_United = 1
+		FN_Free = 1
+		FN_Consolidated = 1
+		FN_Harmonious = 1
+		FN_Golden = 1
+		FN_Favorable = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "trade_federation_names_1_2"
 	parts = {
-		Prosperity = 1
-		Commerce = 1
-		Trade = 1
-		Mercantile = 1
-		Monetary = 1
-		Co-Prosperity = 1
-		Economic = 1
-		FreeTrade = 1
-		Trading = 1
-		Merchant = 1
+		FN_Prosperity = 1
+		FN_Commerce = 1
+		FN_Trade = 1
+		FN_Mercantile = 1
+		FN_Monetary = 1
+		FN_Co-Prosperity = 1
+		FN_Economic = 1
+		FN_FreeTrade = 1
+		FN_Trading = 1
+		FN_Merchant = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "trade_federation_names_1_3"
 	parts = {
-		Sphere = 1
-		Coalition = 1
-		Alliance = 1
-		Federation = 1
-		Pact = 1
-		Coalition = 1
-		Compact = 1
-		Concord = 1
-		Entente = 1
-		Partnership = 1
-		Accord = 1
-		Assembly = 1
-		Exchange = 1
-		Network = 1
+		FN_Sphere = 1
+		FN_Coalition = 1
+		FN_Alliance = 1
+		FN_Federation = 1
+		FN_Pact = 1
+		FN_Coalition = 1
+		FN_Compact = 1
+		FN_Concord = 1
+		FN_Entente = 1
+		FN_Partnership = 1
+		FN_Accord = 1
+		FN_Assembly = 1
+		FN_Exchange = 1
+		FN_Network = 1
 	}
 }
 
@@ -160,50 +160,50 @@ federation_name_format = {
 federation_name_parts_list = {
 	key = "research_federation_names_1_1"
 	parts = {
-		Pan-Galactic = 1
-		Galactic = 1
-		Interstellar = 1
-		Star = 1
-		Stellar = 1
-		Cosmic = 1
-		United = 1
-		Free = 1
-		Harmonious = 1
+		FN_Pan-Galactic = 1
+		FN_Galactic = 1
+		FN_Interstellar = 1
+		FN_Star = 1
+		FN_Stellar = 1
+		FN_Cosmic = 1
+		FN_United = 1
+		FN_Free = 1
+		FN_Harmonious = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "research_federation_names_1_2"
 	parts = {
-		Science = 1
-		Research = 1
-		Information = 1
-		Knowledge = 1
-		Technologist = 1
-		Academy = 1
-		Advancement = 1
+		FN_Science = 1
+		FN_Research = 1
+		FN_Information = 1
+		FN_Knowledge = 1
+		FN_Technologist = 1
+		FN_Academy = 1
+		FN_Advancement = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "research_federation_names_1_3"
 	parts = {
-		Cooperative = 1
-		Sphere = 1
-		Coalition = 1
-		Alliance = 1
-		Federation = 1
-		Pact = 1
-		Coalition = 1
-		Compact = 1
-		Concord = 1
-		Entente = 1
-		Partnership = 1
-		Accord = 1
-		Assembly = 1
-		Exchange = 1
-		Network = 1
-		Association = 1
+		FN_Cooperative = 1
+		FN_Sphere = 1
+		FN_Coalition = 1
+		FN_Alliance = 1
+		FN_Federation = 1
+		FN_Pact = 1
+		FN_Coalition = 1
+		FN_Compact = 1
+		FN_Concord = 1
+		FN_Entente = 1
+		FN_Partnership = 1
+		FN_Accord = 1
+		FN_Assembly = 1
+		FN_Exchange = 1
+		FN_Network = 1
+		FN_Association = 1
 	}
 }
 
@@ -225,31 +225,31 @@ federation_name_format = {
 federation_name_parts_list = {
 	key = "military_federation_names_1_1"
 	parts = {
-		Pan-Galactic = 1
-		Galactic = 1
-		Interstellar = 1
-		Star = 1
-		Stellar = 1
-		Cosmic = 1
+		FN_Pan-Galactic = 1
+		FN_Galactic = 1
+		FN_Interstellar = 1
+		FN_Star = 1
+		FN_Stellar = 1
+		FN_Cosmic = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "military_federation_names_1_2"
 	parts = {
-		TreatyOrganization = 1
-		DefenseForce = 1
-		Pact = 1
-		DefenseLeague = 1
-		StrategicAlliance = 1
-		Entente = 1
-		SecurityPartnership = 1
-		DefenseInitiative = 1
-		SecurityOrganization = 1
-		CombinedForces = 1
-		MilitaryBloc = 1
-		DefenseAxis = 1
-		MutualAssistancePact = 1
+		FN_TreatyOrganization = 1
+		FN_DefenseForce = 1
+		FN_Pact = 1
+		FN_DefenseLeague = 1
+		FN_StrategicAlliance = 1
+		FN_Entente = 1
+		FN_SecurityPartnership = 1
+		FN_DefenseInitiative = 1
+		FN_SecurityOrganization = 1
+		FN_CombinedForces = 1
+		FN_MilitaryBloc = 1
+		FN_DefenseAxis = 1
+		FN_MutualAssistancePact = 1
 	}
 }
 
@@ -270,50 +270,50 @@ federation_name_format = {
 federation_name_parts_list = {
 	key = "hegemony_federation_names_1_1"
 	parts = {
-		StarHegemony = 1
-		StarHierarchy = 1
-		SecurityPact = 1
-		StarDominion = 1
-		AffiliationBloc = 1
-		GalacticDomain = 1
-		GalacticOrder = 1
-		InfluenceSphere = 1
-		PartnershipAlliance = 1
-		FriendshipSphere = 1
-		ControlZone = 1
-		ProtectionSphere = 1
-		DependancyUnion = 1
+		FN_StarHegemony = 1
+		FN_StarHierarchy = 1
+		FN_SecurityPact = 1
+		FN_StarDominion = 1
+		FN_AffiliationBloc = 1
+		FN_GalacticDomain = 1
+		FN_GalacticOrder = 1
+		FN_InfluenceSphere = 1
+		FN_PartnershipAlliance = 1
+		FN_FriendshipSphere = 1
+		FN_ControlZone = 1
+		FN_ProtectionSphere = 1
+		FN_DependancyUnion = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "hegemony_federation_names_2_1"
 	parts = {
-		New = 1
-		Greater = 1
-		Great = 1
-		Grand = 1
-		Exalted = 1
-		Glorious = 1
-		Supreme = 1
-		United = 1
+		FN_New = 1
+		FN_Greater = 1
+		FN_Great = 1
+		FN_Grand = 1
+		FN_Exalted = 1
+		FN_Glorious = 1
+		FN_Supreme = 1
+		FN_United = 1
 	}
 }
 
 federation_name_parts_list = {
 	key = "hegemony_federation_names_2_2"
 	parts = {
-		Order = 1
-		Hegemony = 1
-		Hierarchy = 1
-		Domain = 1
-		Dominion = 1
-		Sphere = 1
-		Authority = 1
-		Pact = 1
-		Bloc = 1
-		Coalition = 1
-		League = 1
+		FN_Order = 1
+		FN_Hegemony = 1
+		FN_Hierarchy = 1
+		FN_Domain = 1
+		FN_Dominion = 1
+		FN_Sphere = 1
+		FN_Authority = 1
+		FN_Pact = 1
+		FN_Bloc = 1
+		FN_Coalition = 1
+		FN_League = 1
 	}
 }
 

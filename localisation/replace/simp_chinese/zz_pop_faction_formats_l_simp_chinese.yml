@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- format.pop_faction.supremacist:0 "[This.Owner.GetSpeciesName]<supremacist_names_1> <supremacist_names_2>"
+ format.pop_faction.supremacist:0 "[This.Owner.GetSpeciesName]<supremacist_names_1><supremacist_names_2>"
  format.pop_faction.imperialist:0 "<imperialist_names>"
  format.pop_faction.isolationist:0 "<isolationist_names_1><isolationist_names_2>"
  format.pop_faction.totalitarian:0 "<totalitarian_names_1><totalitarian_names_2>"

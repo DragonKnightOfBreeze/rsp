@@ -174,10 +174,7 @@ unity_upkeep_country = {
 	category = country
 	
 	potential = {
-		NOT = {
-			is_unity_upkeep_leaders = yes
-			scientist_count < 8
-		}
+		always = yes
 	}
 	
 	fraction = {
@@ -222,7 +219,17 @@ unity_upkeep_edicts = {
 	fraction = {
 		weight = 0.2
 		modifier = {
-			factor = 0.1
+			factor = 0.5
+			is_unity_upkeep_leaders = yes
+			scientist_count < 4
+		}
+		modifier = {
+			factor = 0.5
+			is_unity_upkeep_leaders = yes
+			scientist_count < 6
+		}
+		modifier = {
+			factor = 0.5
 			is_unity_upkeep_leaders = yes
 			scientist_count < 8
 		}

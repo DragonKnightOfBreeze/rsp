@@ -168,10 +168,10 @@
  PFN_Aid:0 "援助"
  PFN_Reform:0 "革新"
  PFN_Awareness:0 "关注"
- PFN_Suffrage:0 "选举权"
+ PFN_Suffrage:0 "选举"
  
  PFN_Lobby:0 "游说团体"
- PFN_Trust:0 "信托基金会"
+ PFN_Trust:0 "信任基金会"
  PFN_Institute:0 "协会"
  PFN_Observatory:0 "观测台"
  

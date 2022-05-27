@@ -3,9 +3,9 @@
 empire_name_parts_list = {
 	key = "community_of_common_destiny"
 	parts = {
-		Community_of_Shared_Future = 6
-		Union_Summit = 6
-		Star_Alliance = 4
+		UGN_Community_of_Shared_Future = 6
+		UGN_Union_Summit = 6
+		UGN_Star_Alliance = 4
 	}
 }
 
@@ -13,11 +13,11 @@ empire_name_parts_list = {
 empire_name_parts_list = {
 	key = "soviet_union"
 	parts = {
-		Awami_League = 6
-		Soviet_Union = 6
-		Socialist_Republics_Union = 6
-		Workers_Group = 6
-		Union = 4
+		UGN_Awami_League = 6
+		UGN_Soviet_Union = 6
+		UGN_Socialist_Republics_Union = 6
+		UGN_Workers_Group = 6
+		UGN_Union = 4
 	}
 }
 
@@ -25,12 +25,12 @@ empire_name_parts_list = {
 empire_name_parts_list = {
 	key = "commonwealth_of_states"
 	parts = {
-		Federal = 6
-		United_Nations = 6
-		Interstellar_Alliance = 6
-		United_States = 6
-		Star_League = 6
-		Union = 4
+		UGN_Federal = 6
+		UGN_United_Nations = 6
+		UGN_Interstellar_Alliance = 6
+		UGN_United_States = 6
+		UGN_Star_League = 6
+		UGN_Union = 4
 	}
 }
 
@@ -38,10 +38,10 @@ empire_name_parts_list = {
 empire_name_parts_list = {
 	key = "united_empire"
 	parts = {
-		United_Kingdom = 6
-		Federal_Empire = 6
-		Joint_Territory = 6
-		Empire = 4
+		UGN_United_Kingdom = 6
+		UGN_Federal_Empire = 6
+		UGN_Joint_Territory = 6
+		UGN_Empire = 4
 	}
 }
 

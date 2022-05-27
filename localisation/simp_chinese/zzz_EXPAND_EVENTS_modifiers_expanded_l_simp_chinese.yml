@@ -94,7 +94,7 @@
  d_protein_vats:0 "蛋白质大桶"
  d_protein_vats_desc:0 "在空间站的深处，这个栖息地的无人机种群维持着数百个生产合成食物的大桶，足以养活相当数量的种群。由此产生的浆液是完全安全食用的，没有任何可疑或麻烦。"
  d_engineered_keepers:0 "基因工程维修单位"
- d_engineered_keepers_desc: "经过特殊设计的有机单位维护和操作本站的先进系统。"
+ d_engineered_keepers_desc:0 "经过特殊设计的有机单位维护和操作本站的先进系统。"
  d_citadel_wards:0 "栖息地病房"
  d_citadel_wards_desc:0 "五条手臂从车站的中央环伸出，提供了车站的大部分空间。在战争时期，这些武器可以靠近，形成一个保护壳，保护内部免受攻击。"
  d_spice_mine:0 "泽洛香料"

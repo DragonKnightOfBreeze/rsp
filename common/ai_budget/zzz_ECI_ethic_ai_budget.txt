@@ -1,0 +1,319 @@
+@expenditure_missing_scientist_weight = 1.6
+@expenditure_missing_scientist_static_max = 1500
+@expenditure_leaders_weight = 0.4
+
+unity_expenditure_missing_scientist = {
+	resource = unity
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_unity_expenditure_leaders = yes
+		should_expenditure_missing_scientist = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_missing_scientist_weight
+	}
+	
+	static_max = {
+		base = @expenditure_missing_scientist_static_max
+	}
+}
+
+energy_expenditure_missing_scientist = {
+	resource = energy
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_energy_expenditure_leaders = yes
+		should_expenditure_missing_scientist = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_missing_scientist_weight
+	}
+	
+	static_max = {
+		base = @expenditure_missing_scientist_static_max
+	}
+}
+
+minerals_expenditure_missing_scientist = {
+	resource = minerals
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_minerals_expenditure_leaders = yes
+		should_expenditure_missing_scientist = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_missing_scientist_weight
+	}
+	
+	static_max = {
+		base = @expenditure_missing_scientist_static_max
+	}
+}
+
+food_expenditure_missing_scientist = {
+	resource = food
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_food_expenditure_leaders = yes
+		should_expenditure_missing_scientist = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_missing_scientist_weight
+	}
+	
+	static_max = {
+		base = @expenditure_missing_scientist_static_max
+	}
+}
+
+
+unity_expenditure_leaders = {
+	resource = unity
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_unity_expenditure_leaders = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_leaders_weight
+		modifier = {
+			factor = 2
+			scientist_count < 4
+		}
+		modifier = {
+			factor = 2
+			scientist_count < 6
+		}
+	}
+}
+
+energy_expenditure_leaders = {
+	resource = energy
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_energy_expenditure_leaders = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_leaders_weight
+		modifier = {
+			factor = 2
+			scientist_count < 4
+		}
+		modifier = {
+			factor = 4
+			scientist_count < 6
+		}
+	}
+}
+
+minerals_expenditure_leaders = {
+	resource = minerals
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_minerals_expenditure_leaders = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_leaders_weight
+		modifier = {
+			factor = 2
+			scientist_count < 4
+		}
+		modifier = {
+			factor = 2
+			scientist_count < 6
+		}
+	}
+}
+
+food_expenditure_leaders = {
+	resource = food
+	type = expenditure
+	category = leaders
+	
+	potential = {
+		is_food_expenditure_leaders = yes
+	}
+	
+	fraction = {
+		weight = @expenditure_leaders_weight
+		modifier = {
+			factor = 2
+			scientist_count < 4
+		}
+		modifier = {
+			factor = 2
+			scientist_count < 6
+		}
+	}
+}
+
+
+unity_upkeep_country = {
+	resource = unity
+	type = upkeep
+	category = country
+	
+	potential = {
+		NOT = {
+			is_unity_upkeep_leaders = yes
+			scientist_count < 8
+		}
+	}
+	
+	fraction = {
+		weight = 0.2
+	}
+	
+	# 不做限制
+	# static_max = {
+	# 	base = 200
+	# }
+}
+unity_upkeep_leaders = {
+	resource = unity
+	type = upkeep
+	category = leaders
+	
+	potential = {
+		is_unity_upkeep_leaders = yes
+	}
+	
+	fraction = {
+		weight = 0.3
+	}
+	
+	# static_min = {
+	# 	base = 20
+	# }
+	
+	static_max = {
+		base = 100
+	}
+}
+unity_upkeep_edicts = {
+	resource = unity
+	type = upkeep
+	category = edicts
+	
+	potential = {
+		always = no
+	}
+	
+	fraction = {
+		weight = 0.2
+		modifier = {
+			factor = 0.1
+			is_unity_upkeep_leaders = yes
+			scientist_count < 8
+		}
+	}
+}
+
+
+energy_upkeep_leaders = {
+	resource = energy
+	type = upkeep
+	category = leaders
+	
+	potential = {
+		is_energy_upkeep_leaders = yes
+	}
+	
+	fraction = {
+		weight = 0.3
+	}
+	
+	# static_min = {
+	# 	base = 20
+	# }
+	
+	static_max = {
+		base = 100
+	}
+}
+
+minerals_upkeep_leaders = {
+	resource = minerals
+	type = upkeep
+	category = leaders
+	
+	potential = {
+		is_minerals_upkeep_leaders = yes
+	}
+	
+	fraction = {
+		weight = 0.3
+	}
+	
+	# static_min = {
+	# 	base = 20
+	# }
+	
+	static_max = {
+		base = 100
+	}
+}
+
+food_upkeep_leaders = {
+	resource = food
+	type = upkeep
+	category = leaders
+	
+	potential = {
+		is_food_upkeep_leaders = yes
+	}
+	
+	fraction = {
+		weight = 0.3
+	}
+	
+	# static_min = {
+	# 	base = 20
+	# }
+	
+	static_max = {
+		base = 100
+	}
+}
+
+consumer_goods_upkeep_leaders = {
+	resource = consumer_goods
+	type = upkeep
+	category = leaders
+	
+	potential = {
+		is_consumer_goods_upkeep_leaders = yes
+	}
+	
+	fraction = {
+		weight = 0.3
+	}
+	
+	# static_min = {
+	# 	base = 20
+	# }
+	
+	static_max = {
+		base = 100
+	}
+}

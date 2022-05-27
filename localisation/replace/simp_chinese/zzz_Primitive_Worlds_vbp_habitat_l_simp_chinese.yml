@@ -69,8 +69,8 @@
  vbp_habitat.10.name:0 "[habitat_site.GetName] Habitat Destroyed"
  vbp_habitat.10.desc:0 "It appears that conflict between supporters and opponents of our effort to integrate the [habitat_site.GetName] Habitat have reached critical point. During the fight, the faction opposing to us have breached the control systems and triggered station self-destruct. Our observation outpost was also destroyed in ensuing detonation."
 
- sc_t: "$pc_t_star$"
- sc_t_desc: "$pc_t_star_desc$"
+ sc_t:0 "$pc_t_star$"
+ sc_t_desc:0 "$pc_t_star_desc$"
 
  vbp_col_primitive_habitat:0 "Primitive Habitat"
  vbp_col_primitive_habitat_desc:0 "A space station whose population can no longer leave."

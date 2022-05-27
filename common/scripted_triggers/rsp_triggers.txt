@@ -1,0 +1,114 @@
+should_expenditure_missing_scientist = {
+	OR = {
+		scientist_count < 4
+		
+		NOT = {
+			research_leader = {
+				area = physics
+			}
+		}
+		NOT = {
+			research_leader = {
+				area = society
+			}
+		}
+		NOT = {
+			research_leader = {
+				area = engineering
+			}
+		}
+	}
+}
+
+is_unity_expenditure_leaders = {
+	always = no
+}
+
+is_energy_expenditure_leaders = {
+	OR = {
+		is_regular_empire = yes
+	}
+}
+
+is_minerals_expenditure_leaders = {
+	OR = {
+		AND = {
+			is_hive_empire = yes
+			is_lithoid = yes
+		}
+		is_machine_empire = yes
+	}
+}
+
+is_food_expenditure_leaders = {
+	OR = {
+		AND = {
+			is_hive_empire = yes
+			is_lithoid = no
+		}
+	}
+}
+
+is_unity_upkeep_leaders = {
+	OR = {
+		AND = {
+			is_regular_empire = yes
+			NOR = {
+				has_valid_civic = civic_feudal_realm
+				has_valid_civic = civic_aristocratic_elite
+			}
+		}
+		has_valid_civic = civic_aristocratic_elite
+	}
+}
+
+is_energy_upkeep_leaders = {
+	OR = {
+		is_machine_empire = yes
+	}
+}
+
+is_minerals_upkeep_leaders = {
+	OR = {
+		AND = {
+			is_hive_empire = yes
+			is_lithoid = yes
+		}
+	}
+}
+
+is_food_upkeep_leaders = {
+	OR = {
+		AND = {
+			is_hive_empire = yes
+			is_lithoid = no
+		}
+	}
+}
+
+is_consumer_goods_upkeep_leaders = {
+	OR = {
+		has_valid_civic = civic_aristocratic_elite
+		has_valid_civic = civic_feudal_realm
+		# AND = {
+		# 	is_regular_empire = yes
+		# 	OR = {
+		# 		has_ethic = ethic_materialist
+		# 		has_ethic = ethic_fanatic_materialist
+		# 	}
+		# }
+	}
+}
+
+
+has_leader_upkeep = {
+	exists = owner
+	OR = {
+		is_idle = yes
+		owner = {
+			NOR = {
+				has_valid_civic = civic_coalition_government
+			}
+		}
+	}
+}

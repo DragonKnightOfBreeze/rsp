@@ -1,0 +1,801 @@
+## 工会派系
+
+pop_faction_name_parts_list = {
+	key = "labourites_names_1"
+	parts = {
+		PFN_True_Equality = 1
+		PFN_People_for_Equality = 1
+		PFN_Equal_Rights = 1
+		PFN_Labour_Rights = 1
+		PFN_Equality_First = 1
+		PFN_Working_Class_Heroes = 1
+		PFN_Labour_Brothers = 1
+		PFN_Stop_Elitism = 1
+		PFN_Worker_Voice = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "labourites_names_2"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Society = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_League = 1
+		PFN_Party = 1
+		PFN_Convention = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "progressive"
+		}
+	}
+	lookups = "<labourites_names_1> <labourites_names_2>"
+	format = format.pop_faction.progressive
+}
+
+## 议员派系
+pop_faction_name_parts_list = {
+	key = "progressive_names_1"
+	parts = {
+		PFN_Democratic = 1
+		PFN_Freedom = 1
+		PFN_Free_Elections = 1
+		PFN_Liberty_Now = 1
+		PFN_Democratic_Reform = 1
+		PFN_Citizen_Self_Determinism = 1
+		PFN_Full_Enfranchisement = 1
+		PFN_True_Democracy = 1
+		PFN_Individual_Choice = 1
+		PFN_Free_Thought = 1
+		PFN_Free_Citizen = 1
+		PFN_Popular_Vote = 1
+		PFN_Democratic_Rights = 1
+		PFN_Friends_of_Liberty = 1
+		PFN_Galactic_Emancipation = 1
+		PFN_Electoral_Freedom = 1
+		PFN_Citizens_for_Freedom = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "progressive_names_2"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Society = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_League = 1
+		PFN_Party = 1
+		PFN_Convention = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "entrepreneurs"
+		}
+	}
+	lookups = "<progressive_names_1> <progressive_names_2>"
+	format = format.pop_faction.entrepreneurs
+}
+
+## 军警派系
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_1"
+	parts = {
+		PFN_Strength_Through_Unity = 1
+		PFN_Authoritarian = 1
+		PFN_Imperial_Unity = 1
+		PFN_One_Throne = 1
+		PFN_Hierarchical = 1
+		PFN_United_As_One = 1
+		PFN_Noble_Privilege = 1
+		PFN_Monarchist = 1
+		PFN_Ordered_Society = 1
+		PFN_Peace_and_Order = 1
+		PFN_Loyal_Citizenry = 1
+		PFN_Citizen_Elite = 1
+		PFN_Citizen_Obedience = 1
+		PFN_Obedience_Loyalty_and_Duty = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_2"
+	parts = {
+		PFN_Initiative = 1
+		PFN_Coalition = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Union = 1
+		PFN_Party = 1
+		PFN_Vanguard = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "totalitarian"
+		}
+	}
+	lookups = "<totalitarian_names_1> <totalitarian_names_2>"
+	format = format.pop_faction.totalitarian
+}
+
+## 文官派系
+
+pop_faction_name_parts_list = {
+	key = "conservatives_names_1"
+	parts = {
+		PFN_Hierarchical = 1
+		PFN_Noble_Privilege = 1
+		PFN_Ordered_Society = 1
+		PFN_Citizen_Elite = 1
+		PFN_Best_Citizens = 1
+		PFN_Best_of_the_Best = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "conservatives_names_2"
+	parts = {
+		PFN_Initiative = 1
+		PFN_Coalition = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Union = 1
+		PFN_Party = 1
+		PFN_Vanguard = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "civil_official"
+		}
+	}
+	lookups = "<conservatives_names_1> <conservatives_names_2>"
+	format = format.pop_faction.civil_official
+}
+
+
+## 沙文主义派系
+pop_faction_name_parts_list = {
+	key = "supremacist_names_1"
+	parts = {
+		PFN_Supremacy = 1
+		PFN_Unity = 1
+		PFN_Primacy = 1
+		PFN_Dominance = 1
+		PFN_Future = 1
+		PFN_Ascendancy = 1
+		PFN_Superiority = 1
+		PFN_Preservation = 1
+		PFN_Purity = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "supremacist_names_2"
+	parts = {
+		PFN_Vanguard = 1
+		PFN_Front = 1
+		PFN_Movement = 1
+		PFN_Party = 1
+		PFN_Bloc = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "supremacist"
+		}
+	}
+	lookups = "[This.Owner.GetSpeciesName] <supremacist_names_1> <supremacist_names_2>"
+	format = format.pop_faction.supremacist
+}
+
+## 法官派系
+pop_faction_name_parts_list = {
+	key = "isolationist_names_1"
+	parts = {
+		PFN_Non_Interventionist = 1
+		PFN_No_Entanglements = 1
+		PFN_Defense_First = 1
+		PFN_National_Preparedness = 1
+		PFN_Defensive_Readiness = 1
+		PFN_Neutrality = 1
+		PFN_Internal_Strength = 1
+		PFN_Closed_Borders = 1
+		PFN_Eternal_Vigilance = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "isolationist_names_2"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Society = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_League = 1
+		PFN_Party = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "isolationist"
+		}
+	}
+	lookups = "<isolationist_names_1> <isolationist_names_2>"
+	format = format.pop_faction.isolationist
+}
+
+## 军国主义党派
+pop_faction_name_parts_list = {
+	key = "imperialist_names"
+	parts = {
+		PFN_Military_Officers_Association = 1
+		PFN_Veterans_for_Victory_Movement = 1
+		PFN_Military_Industrial_Complex = 1
+		PFN_Strength_Through_Conquest_Coalition = 1
+		PFN_Knights_of_the_Void = 1
+		PFN_Patriotic_Vanguard = 1
+		PFN_Order_of_the_Burning_Star = 1
+		PFN_Crimson_Warrior_Lodge = 1
+		PFN_First_Strike_Legion = 1
+		PFN_Red_Legion = 1
+		PFN_Whetstone_Initiative = 1
+		PFN_Operation_Battle_Cry = 1
+		PFN_Banner_of_Triumph = 1
+		PFN_Battle_Brethren = 1
+		PFN_Silver_Guard = 1
+		PFN_Glory_Initiative = 1
+		PFN_Path_to_Victory_Committee = 1
+		PFN_Vanguard_of_the_Chosen = 1
+		PFN_Drumbeat_of_Victory_Party = 1
+		PFN_Martial_Order_of_the_Thorn = 1
+		PFN_Martial_Supremacy_Alliance = 1
+		PFN_March_of_the_Brave = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "imperialist"
+		}
+		modifier = {
+			add = 100
+			is_pop_faction_type = "revolutionary"
+		}
+	}
+	lookups = "<imperialist_names>"
+	format = format.pop_faction.imperialist
+}
+
+## 社会主义党派
+
+pop_faction_name_parts_list = {
+	key = "socialists_names_1"
+	parts = {
+		PFN_Social_Prosperity = 1
+		PFN_Welfare_and_Care = 1
+		PFN_Compassion = 1
+		PFN_Social_Security = 1
+		PFN_Social_Progress = 1
+		PFN_Solidarity = 1
+		PFN_Socialist_Alternative = 1
+		PFN_Economic_Equality = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "socialists_names_2"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Society = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_League = 1
+		PFN_Party = 1
+		PFN_Convention = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "socialists"
+		}
+		modifier = {
+			add = 100
+			is_pop_faction_type = "pioneer"
+		}
+	}
+	lookups = "<socialists_names_1> <socialists_names_2>"
+	format = format.pop_faction.socialists
+}
+
+## 金融家派系
+
+pop_faction_name_parts_list = {
+	key = "bankers_names_1"
+	parts = {
+		PFN_Market_Development = 1
+		PFN_National_Trading = 1
+		PFN_Free_Trade = 1
+		PFN_Entrepreneurship_and_Trade = 1
+		PFN_Business_Investments = 1
+		PFN_Business_Development = 1
+		PFN_Financial_Independence = 1
+		PFN_Financial_Investments = 1
+		PFN_Prosperity_and_Trade = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "bankers_names_2"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_League = 1
+		PFN_Party = 1
+		PFN_Convention = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "bankers"
+		}
+	}
+	lookups = "<bankers_names_1> <bankers_names_2>"
+	format = format.pop_faction.bankers
+}
+
+
+## 实业家派系
+pop_faction_name_parts_list = {
+	key = "prosperity_names_1"
+	parts = {
+		PFN_Internal_Development = 1
+		PFN_National_Growth = 1
+		PFN_Economic_Development = 1
+		PFN_National_Wealth = 1
+		PFN_Wealth_Promotion = 1
+		PFN_Progress_Promotion = 1
+		PFN_Peaceful_Progress = 1
+		PFN_Prosperity = 1
+		PFN_National_Prosperity = 1
+		PFN_Internal_Growth = 1
+		PFN_National_Stability = 1
+		PFN_Peaceful_Advancement = 1
+		PFN_Peace_and_Prosperity = 1
+		PFN_National_Evolvement = 1
+		PFN_Progress_Peace_Prosperity = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "prosperity_names_2"
+	parts = {
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Association = 1
+		PFN_Board = 1
+		PFN_Committee = 1
+		PFN_Party = 1
+		PFN_Coalition = 1
+		PFN_League = 1
+		PFN_Initiative = 1
+		PFN_Group = 1
+		PFN_Lobby = 1
+		PFN_Network = 1
+		PFN_Council = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "industrialist"
+		}
+	}
+	lookups = "<prosperity_names_1> <prosperity_names_2>"
+	format = format.pop_faction.industrialist
+}
+
+## 先锋主义党派
+pop_faction_name_parts_list = {
+	key = "technologist_names_1"
+	parts = {
+		PFN_Committee = 1
+		PFN_Academy = 1
+		PFN_Council = 1
+		PFN_Institute = 1
+		PFN_Association = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "technologist_names_2"
+	parts = {
+		PFN_of_Higher_Learning = 1
+		PFN_of_United_Scientists = 1
+		PFN_of_Technological_Progress = 1
+		PFN_of_Technologists = 1
+		PFN_of_Advanced_Sciences = 1
+		PFN_of_Scientific_Scholars = 1
+		PFN_of_Scientific_Ascendancy = 1
+		PFN_of_High_Technology = 1
+		PFN_for_the_Advancement_of_Science = 1
+		PFN_of_Technocratic_Reform = 1
+		PFN_of_Research_Efficiency = 1
+		PFN_of_Technological_Mastery = 1
+		PFN_of_Scientific_Betterment = 1
+		PFN_of_Robotic_Sciences = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "technologist"
+		}
+		modifier = {
+			add = 100
+			is_pop_faction_type = "competitors"
+		}
+	}
+	lookups = "<technologist_names_1> <technologist_names_2>"
+	format = format.pop_faction.technologist
+}
+
+## 教权主义党派
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_1"
+	parts = {
+		PFN_Union = 1
+		PFN_Alliance = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Church = 1
+		PFN_Conclave = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_2"
+	parts = {
+		PFN_of_Traditional_Values = 1
+		PFN_of_Spiritualists = 1
+		PFN_of_Divine_Guidance = 1
+		PFN_of_Sacred_Traditions = 1
+		PFN_of_Religious_Conservatism = 1
+		PFN_of_Spiritual_Redemption = 1
+		PFN_of_Spiritualism_Unchained = 1
+		PFN_of_the_True_Gospel = 1
+		PFN_of_Spiritual_Philosophy = 1
+		PFN_of_Traditional_Foundations = 1
+		PFN_of_Metaphysical_Cleansing = 1
+		PFN_of_Exalted_Clergy = 1
+		PFN_of_the_High_Priesthood = 1
+		PFN_of_the_Sacrosanct_Truths = 1
+		PFN_of_Pious_Traditionalists = 1
+		PFN_of_Faith_and_Values = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "traditionalist"
+		}
+		modifier = {
+			add = 100
+			is_pop_faction_type = "secular"
+		}
+	}
+	lookups = "<traditionalist_names_1> <traditionalist_names_2>"
+	format = format.pop_faction.traditionalist
+}
+
+## 崇外主义党派
+pop_faction_name_parts_list = {
+	key = "xenoist_names_1"
+	parts = {
+		PFN_Alien = 1
+		PFN_Xeno = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_2"
+	parts = {
+		PFN_Rights = 1
+		PFN_Tolerance = 1
+		PFN_Friendship = 1
+		PFN_Equality = 1
+		PFN_Justice = 1
+		PFN_Compassion = 1
+		PFN_Protection = 1
+		PFN_Liberty = 1
+		PFN_Freedom = 1
+		PFN_Aid = 1
+		PFN_Reform = 1
+		PFN_Awareness = 1
+		PFN_Suffrage = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_3"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Lobby = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Society = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_Trust = 1
+		PFN_Institute = 1
+		PFN_League = 1
+		PFN_Observatory = 1
+		PFN_Party = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "xenoist"
+		}
+		modifier = {
+			add = 100
+			is_pop_faction_type = "proletarians"
+		}
+	}
+	lookups = "<xenoist_names_1> <xenoist_names_2> <xenoist_names_3>"
+	format = format.pop_faction.xenoist
+}
+
+## 宣泄派
+pop_faction_name_parts_list = {
+	key = "manifesti_names_1"
+	parts = {
+		PFN_Manifesti = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "manifesti_names_2"
+	parts = {
+		PFN_Partay = 1
+		PFN_Dalliance = 1
+		PFN_Palette = 1
+		PFN_Convolution = 1
+		PFN_Praxis = 1
+		PFN_Weave = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "manifesti"
+		}
+	}
+	lookups = "<manifesti_names_1> <manifesti_names_2>"
+	format = format.pop_faction.manifesti
+}
+
+## 哲学家派系
+
+pop_faction_name_parts_list = {
+	key = "environmentalists_names_1"
+	parts = {
+		PFN_Evergreen = 1
+		PFN_Alive_Planet = 1
+		PFN_Treehuggers = 1
+		PFN_Green_Brothers = 1
+		PFN_Green_Planet = 1
+		PFN_Environmental_Defense = 1
+		PFN_People_for_Environment = 1
+		PFN_Friends_of_Nature = 1
+		PFN_People_for_Nature = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "environmentalists_names_2"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Society = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_League = 1
+		PFN_Party = 1
+		PFN_Convention = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "philosopher"
+		}
+	}
+	lookups = "<environmentalists_names_1> <environmentalists_names_2>"
+	format = format.pop_faction.philosopher
+}
+
+## 工程师派系
+
+pop_faction_name_parts_list = {
+	key = "manufacturers_names_1"
+	parts = {
+		PFN_Miners = 1
+		PFN_Industrial_Growth = 1
+		PFN_Manufacturers = 1
+		PFN_Heavy_Industry = 1
+		PFN_Mining_and_Refining = 1
+		PFN_Industry_Development = 1
+		PFN_Manufacturing_Industry = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "manufacturers_names_2"
+	parts = {
+		PFN_Coalition = 1
+		PFN_Council = 1
+		PFN_Committee = 1
+		PFN_Center = 1
+		PFN_Foundation = 1
+		PFN_Initiative = 1
+		PFN_Society = 1
+		PFN_Watch = 1
+		PFN_Alliance = 1
+		PFN_Movement = 1
+		PFN_Group = 1
+		PFN_Organization = 1
+		PFN_Network = 1
+		PFN_Forum = 1
+		PFN_Association = 1
+		PFN_League = 1
+		PFN_Party = 1
+		PFN_Convention = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "prosperity"
+		}
+	}
+	lookups = "<manufacturers_names_1> <manufacturers_names_2>"
+	format = format.pop_faction.prosperity
+}
+
